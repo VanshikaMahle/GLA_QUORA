@@ -69,8 +69,8 @@ const AddEducation = ({ addEducation, history }) => {
         name = "fieldofstudy"
         value = { fieldofstudy }
         onChange = { e => onChange(e) }
-        /> <
-        /div> <
+        /> < /
+        div > <
         div class = "form-group" >
         <
         h4 > From Date < /h4> <
@@ -78,8 +78,8 @@ const AddEducation = ({ addEducation, history }) => {
         name = "from"
         value = { from }
         onChange = { e => onChange(e) }
-        /> <
-        /div> <
+        /> < /
+        div > <
         div class = "form-group" >
         <
         p > < input type = "checkbox"
@@ -93,7 +93,7 @@ const AddEducation = ({ addEducation, history }) => {
 
             }
         }
-        /> {' '}Current</p >
+        /> {' '}Current School</p >
         <
         /div> <
         div class = "form-group" >
@@ -104,8 +104,8 @@ const AddEducation = ({ addEducation, history }) => {
         value = { to }
         onChange = { e => onChange(e) }
         disabled = { toDateDisabled ? 'disabled' : '' }
-        /> <
-        /div> <
+        /> < /
+        div > <
         div class = "form-group" >
         <
         textarea name = "description"
@@ -114,14 +114,15 @@ const AddEducation = ({ addEducation, history }) => {
         placeholder = "Program Description"
         value = { description }
         onChange = { e => onChange(e) } >
-        < /textarea> <
-        /div> <
+        <
+        /textarea> < /
+        div > <
         input type = "submit"
         class = "btn btn-primary my-1" / >
         <
         Link class = "btn btn-light my-1"
-        to = "/dashboard" > Go Back < /Link> <
-        /form> <
+        to = "/dashboard" > Go Back < /Link> < /
+        form > <
         /Fragment>
     );
 };
