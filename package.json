@@ -1,11 +1,13 @@
 {
-    "name": "geekseek",
+    "name": "GLA_QUORA",
     "version": "1.0.0",
     "description": "Social network for developers",
     "main": "server.js",
     "scripts": {
         "start": "node server",
-        "server": "nodemon"
+        "server": "nodemon",
+        "client": "npm start --prefix client",
+        "dev": "concurrently \"npm run server\" \"npm run client\""
     },
     "author": "Vanshika Mahle",
     "license": "MIT",
