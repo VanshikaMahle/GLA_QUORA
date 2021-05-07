@@ -51,7 +51,7 @@ const PostItem = ({
             <
             i class = "fas fa-thumbs-down" > < /i>{' '} < /
             button > <
-            Link to = { `posts/${_id}` }
+            Link to = { `post/${_id}` }
             class = "btn btn-primary" >
             Discussion {
                 comments.length > 0 && ( <
