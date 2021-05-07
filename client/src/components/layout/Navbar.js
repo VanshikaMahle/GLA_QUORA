@@ -12,19 +12,19 @@ const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
             <
             li >
             <
-            Link to = "/profiles" > Users < /Link> <
-            /li> <
+            Link to = "/profiles" > Users < /Link> < /
+            li > <
             li >
             <
-            Link to = "/posts" > Posts < /Link> <
-            /li> <
+            Link to = "/posts" > Posts < /Link> < /
+            li > <
             li >
             <
             Link to = "/dashboard" >
             <
             i className = "fas fa-user" / > { ' ' } <
-            span className = "hide-sm" > Dashboard < /span> <
-            /Link> <
+            span className = "hide-sm" > Dashboard < /span> < /
+            Link > <
             /li>  <
             li >
             <
@@ -43,8 +43,9 @@ const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
             <
             li >
             <
-            Link to = "#!" > Users < /Link> < /
-            li > <
+            Link to = "/profiles" > Users < /Link> < /
+            li >
+            <
             li >
             <
             Link to = "/register" > Register < /Link> < /

@@ -11,7 +11,7 @@ import { getCurrentProfile, deleteAccount } from '../../actions/profile';
 const Dashboard = ({ getCurrentProfile, deleteAccount, auth: { user }, profile: { profile, loading } }) => {
     useEffect(() => {
         getCurrentProfile();
-    }, []);
+    }, [getCurrentProfile]);
 
     return loading && profile === null ? ( < Spinner / > ) : ( < Fragment >
         <
@@ -30,11 +30,12 @@ const Dashboard = ({ getCurrentProfile, deleteAccount, auth: { user }, profile: 
         <
         button className = 'btn btn-danger'
         onClick = {
-            () => deleteAccount() } >
+            () => deleteAccount()
+        } >
         <
         i className = 'fas fa-user-minus' / > Delete My Account <
-        /button> <
-        /div> <
+        /button> < /
+        div > <
         /
         Fragment > ): ( < Fragment > <
         p > You have not yet setup a profile, please add some info < /p> <
