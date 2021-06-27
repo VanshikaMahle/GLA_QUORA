@@ -3,9 +3,7 @@ A platform for the people of GLA University to connect. They can create their pr
 Users can also create small posts and like/dislike and comment on other posts.
 
 #Live Website ⚓
-```sh
 https://serene-coast-46351.herokuapp.com/
-```
 
 ## Quick Start 🚀
 
