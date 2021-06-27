@@ -1,6 +1,5 @@
 # GLA_QUORA
-A platform for the people of GLA University to connect. They can create their profile.
-Users can also create small posts and like/dislike and comment on other posts.
+A platform for the people of GLA University to connect. It allows users to create their profile, update it and add additional details about them. They can view profiles of other users and connect with them. Users can post their views in the forum section, like other's posts and put comments too.
 
 #Live Website ⚓
 https://serene-coast-46351.herokuapp.com/
